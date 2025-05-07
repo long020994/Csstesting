@@ -4,8 +4,11 @@
 
 body, html {
     margin: 0;
-    padding: 0;
-    height: 100%;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    align-items: center;
 }
 
 header {
@@ -38,7 +41,6 @@ h1 {
 .container {
     background-color: black;
     display: flex;
-    height: 100vh;
     flex-direction: row;
     align-items: flex-start;
     padding: 20px 40px;
@@ -46,17 +48,50 @@ h1 {
 }
 
 .prgrph {
-    text-align: left;
+    text-align: center;
     margin: 0;
 }
 p {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    text-align: left;
     font-size: 20px;
     color: white;
     margin-top: 10px;
 }
 
+.container2 {
+    display: inline-block;
+    padding: 20px;
+}
+
+.text1 {
+    font-style: bold;
+    font-size: 10em;
+    letter-spacing: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    border-right: 5px solid;
+    color:white;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: 
+        typing 2s steps(17),
+        cursor .4s step-end infinite alternate; 
+}
+
+@keyframes cursor {
+    50% {
+        border-color: transparent;
+    }
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+    to {
+        width: 100%;
+    }
+}
 .card {
     height: 4vh;
     aspect-ratio: 1/1;;

@@ -63,7 +63,13 @@ p {
     padding: 20px;
 }
 
+.centerwrap {
+    display: flex;
+    justify-content: center;
+}
+
 .text1 {
+    text-align: center;
     font-style: bold;
     font-size: 10em;
     letter-spacing: 10px;
@@ -121,3 +127,16 @@ p {
 
 }
 
+.container3 {
+    width: min(1000px, 100%);
+    margin: 0 auto;
+    columns: 3 300px;
+    column-gap: 10px;
+}
+
+img {
+    border: 3px solid white;
+    display: block;
+    margin-bottom: 1em;
+    width: 100%;
+}

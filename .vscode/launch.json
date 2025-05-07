@@ -7,8 +7,8 @@
         {
             "type": "msedge",
             "request": "launch",
-            "name": "Open Mytest.html",
-            "file": "l:\\learnCss\\Mytest.html"
+            "name": "Open index.html",
+            "file": "l:\\learnCss\\index.html"
         }
     ]
 }

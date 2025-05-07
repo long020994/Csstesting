@@ -1,10 +1,10 @@
 {
-  "emeraldwalk.runonsave": {
-    "commands": [
-      {
-        "match": ".*",
-        "cmd": "cmd /c \"${workspaceFolder}\\auto_push.bat\""
-      }
-    ]
-  }
+ "emeraldwalk.runonsave": {
+  "commands": [
+    {
+      "match": ".*",
+      "cmd": "cmd /c \"${workspaceFolder}/.vscode/auto_push.bat\""
+    }
+  ]
+}
 }

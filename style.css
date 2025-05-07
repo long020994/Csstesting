@@ -39,16 +39,22 @@ h1 {
     background-color: black;
     display: flex;
     height: 100vh;
-    justify-content: center;
-    align-items: center;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 20px 40px;
+    gap: 20px
 }
 
+.prgrph {
+    text-align: left;
+    margin: 0;
+}
 p {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    text-align: right;
+    text-align: left;
     font-size: 20px;
     color: white;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 .card {

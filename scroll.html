@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bách Hóa Bảo Long</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        :root {
+            --bg-color: #202030;
+            --green: #5fd937;
+            --red: #ed220d;
+        }
+
+        html {
+            height: 200vh;
+        }
+
+        body {
+            background: var(--bg-color);
+        }
+
+        .main {
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .box {
+            width: 200px;
+            height: 400px;
+            border-radius: 20px;
+            background: var(--green);
+            position: fixed;
+            padding: 20px;
+            overflow: scroll;
+
+
+            animation: 5s change-color linear forwards;
+            animation-timeline: scroll();
+
+
+        }
+
+        @keyframes change-color {
+            from {
+                background: var(--green);
+            }
+            to {
+                background: var(--red)
+            }
+        }
+    </style>
+</head>
+<body>
+    
+    <h1>SCROLL EFFECT</h1>
+
+    <nav class="navbar">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="image.html">Image</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="scroll.html">Scroll Effect</a></li>
+        </ul>
+    </nav>
+
+    <div class="main">
+        <div class="box">
+            Chưa hoàn thiện gì cả nhưng mà tới giờ T1 đánh rồi nên tạm nghỉ lát chơi tiếp hehe.
+        </div>
+    </div>
+
+</body>
+</html>
